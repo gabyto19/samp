@@ -1,0 +1,22 @@
+.logo{
+    height: 90px !important;
+}
+.action-div{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    height: 40px;
+    margin-right: 10px;
+}
+button{
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgb(0 0 0);
+}
