@@ -2,8 +2,8 @@
     <app-navigation class="navigation-class" [ngClass]="{ 'scrolled': isScrolled }" id="navbar"></app-navigation>
 </header>
 <main>
-    <app-home></app-home>
+    <router-outlet></router-outlet>
 </main>
 <footer>
-    <app-footer class="footer-class"></app-footer>
+    <app-footer class="footer-class" [ngClass]="footerClass"></app-footer>
 </footer>

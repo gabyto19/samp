@@ -9,8 +9,13 @@
 }
 
 footer {
-    height: 250px;
+    height: 240px;
+}
+.welcome-page{
     background-color: #ff3333;
+}
+.start-game-footer {
+    background-color: #222130;
 }
 
 .footer-class {
