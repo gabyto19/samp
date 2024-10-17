@@ -1,7 +1,120 @@
-.main{
+.main {
         background-image: url('../../assets/imgs/second_page.png');
         background-size: cover;
         height: 100vh;
         width: 100%;
         box-shadow: 0px -133px 92px -36px #222130 inset;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 17px;
+        font-weight: bold;
+
+        div {
+                height: 300px;
+                width: 350px;
+                background-color: #555555a3;
+                border-radius: 50px;
+                border: solid 1px #d5ff00a6;
+                box-shadow: 0px 0px 5px 1px #d5ff00a6;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                color: white;
+                text-shadow: 5px 5px 10px BLACK;
+        }
+
+        h1 {
+                height: 20px;
+        }
+
+        img {
+                height: 70px;
+                margin-top: 10px;
+        }
+}
+
+.first {
+        clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+
+        button{
+                height: 40px;
+                width: 120px;
+                font-size: large;
+                background-color: #242424;
+                border: 1px solid #616161;
+                border-radius: 12px;
+                color: white;
+                font-weight: 700;
+                text-shadow: 0px 0px 8px #fff600;
+                box-shadow: 0px 0px 8px #fff600;
+        }
+}
+
+.second {
+        img {
+                height: 80px !important;
+        }
+
+        div {
+                background: none;
+                border: none;
+                box-shadow: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+
+                input {
+                        height: 30px;
+                        background: #242424;
+                        border: 1px solid black;
+                        border-top-left-radius: 12px;
+                        border-bottom-left-radius: 12px;
+                        color: white;
+                        font-size: 15px;
+                        text-align: center;
+                        width: 160px;
+                        font-weight: 700;
+                }
+
+                input:focus {
+                        outline: none;
+                        border: 1px solid black;
+                }
+
+                button {
+                        height: 34px;
+                        width: 38px;
+                        background: #242424;
+                        border-left: none !important;
+
+                        border: 1px solid black;
+                        border-top-right-radius: 12px;
+                        border-bottom-right-radius: 12px;
+
+                        img {
+                                max-height: 25px;
+                                margin-top: 3px;
+                        }
+                }
+        }
+
+}
+
+.third {
+        clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
+        button{
+                height: 40px;
+                width: 120px;
+                font-size: large;
+                background-color: #242424;
+                border: 1px solid #616161;
+                border-radius: 12px;
+                color: white;
+                font-weight: 700;
+                text-shadow: 0px 0px 8px #fff600;
+                box-shadow: 0px 0px 8px #fff600;
+                margin-top: 25px;
+        }
 }

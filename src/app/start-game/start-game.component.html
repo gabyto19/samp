@@ -1,3 +1,24 @@
 <div class="main">
-
-</div>
+    <div class="first">
+      <img src="../../assets/imgs/start-game/launcher.png" alt="" class="logo">
+      <h1>ლაუნჩერი</h1>
+      <p class="description">დააინსტალირეთ ლაუნჩერი თქვენს კომპიუტერზე</p>
+      <button>გადმოწერა</button>
+    </div>
+    <div class="second">
+      <img src="../../assets/imgs/start-game/server.png" alt="" class="logo">
+      <h1>სერვერი</h1>
+      <p class="description">სერვერის მისამართი</p>
+      <div>
+        <input type="text" id="ipAddress" [(ngModel)]="ipAddress" readonly>
+        <button (click)="copyText()"><img src="../../assets/imgs/start-game/clipboard.png" alt=""></button>
+      </div>
+    </div>
+    <div class="third">
+      <img src="../../assets/imgs/start-game/mobile.png" alt="" class="logo">
+      <h1>ტელეფონისთვის</h1>
+      <p class="description">გადმოიწერე ტელეფონის ვერსია</p>
+      <button>გადმოწერა</button>
+    </div>
+  </div>
+  
