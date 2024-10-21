@@ -38,7 +38,7 @@
 .first {
         clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
 
-        button{
+        button {
                 height: 40px;
                 width: 120px;
                 font-size: large;
@@ -104,7 +104,8 @@
 
 .third {
         clip-path: polygon(0 0, 90% 0, 100% 100%, 10% 100%);
-        button{
+
+        button {
                 height: 40px;
                 width: 120px;
                 font-size: large;
@@ -117,4 +118,63 @@
                 box-shadow: 0px 0px 8px #fff600;
                 margin-top: 25px;
         }
+}
+
+@media (max-width: 1000px) {
+
+        .main {
+                flex-wrap: wrap;
+        }
+
+        .first {
+                clip-path: none;
+        }
+
+        .third {
+                clip-path: none;
+        }
+}
+
+@media(max-width:705px) {
+        .main div {
+                height: 250px;
+                width: 245px;
+
+                h1 {
+                        font-size: 23px;
+                }
+
+                p {
+                        font-size: 14px;
+                        font-weight: lighter;
+                }
+        }
+}
+
+@media (max-width: 495px) {
+        .main {
+                img {
+                        height: 50px;
+                }
+
+                h1 {
+                        height: 12px;
+                }
+
+                div p {
+                        font-size: 12px;
+                }
+
+                div {
+                        height: 215px;
+                        width: 245px;
+                }
+        }
+
+        .second img {
+                height: 50px !important;
+
+        }
+
+
 }

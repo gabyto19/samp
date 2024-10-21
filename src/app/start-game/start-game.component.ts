@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./start-game.component.css'] // Note the plural 'styleUrls'
 })
 export class StartGameComponent {
-  ipAddress = "192.168.0.1:7777";
+  ipAddress = "play.awellenada-rp.ge:7777";
 
   copyText() {
     const inputElement = document.getElementById('ipAddress') as HTMLInputElement;

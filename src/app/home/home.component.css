@@ -28,6 +28,8 @@
                 border: none;
                 cursor: pointer;
         }
+
+        z-index: 50;
 }
 
 .serv-name {
@@ -48,7 +50,7 @@ h3 {
 
 .pictures {
         img:first-child {
-                height: 700px;
+                width: 700px;
                 position: absolute;
                 z-index: 10;
                 mask-image: linear-gradient(to top, rgba(0, 0, 0, 0) 4%, rgba(0, 0, 0, 1) 13%);
@@ -67,4 +69,24 @@ h3 {
         bottom: 196px;
         width: 700px;
 
+}
+
+@media (max-width: 1500px) {
+        .pictures {
+                bottom: 115px;
+                width: 600px;
+        }
+
+        img:first-child {
+                width: 600px !important;
+        }
+}
+
+@media (max-width: 495px) {
+        .starter{
+                left: 0px;
+        }
+        .serv-name {
+                font-size: 45px;
+        }
 }

@@ -46,6 +46,7 @@
         justify-content: space-evenly;
         margin-top: 50px;
         height: 80px;
+
         button {
             background-color: transparent;
             border: none;
@@ -53,9 +54,10 @@
             font-weight: 600;
             color: cornsilk;
             text-shadow: 2px 2px 4px black;
+            text-align: left;
         }
 
-        div{
+        div {
             display: flex;
             flex-direction: column;
             align-items: flex-start;
@@ -67,4 +69,21 @@
 
 .right {
     width: 25%;
+}
+
+@media (max-width: 1000px) {
+    .right {
+        width: 0px;
+    }
+}
+
+@media(max-width:705px) {
+    .left {
+        width: auto;
+    }
+
+    .center,
+    .right {
+        display: none;
+    }
 }
